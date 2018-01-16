@@ -2,7 +2,7 @@ FROM openjdk:8
 MAINTAINER Xavier Jodoin
 
 USER root
-ENV HADOOP_VERSION 2.8.0
+ENV HADOOP_VERSION 2.8.3
 
 # install dev tools
 RUN apt-get update  && apt-get install -y curl tar sudo openssh-server openssh-client rsync

@@ -22,7 +22,7 @@
   </property>
   <property>
     <name>yarn.scheduler.maximum-allocation-mb</name>
-    <value>2048</value>
+    <value>8192</value>
   </property>
   <property>
     <name>yarn.nodemanager.disk-health-checker.max-disk-utilization-per-disk-percentage</name>
